@@ -1,0 +1,39 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+/***** GENERIC STYLES *************/
+/**********************************/
+
+
+
+
+
+
+
+
+/***** SPECIFIC STYLES ************/
+/**********************************/
+
+
+/*  CLOSE screen-small screen) */
+
+@media screen and (min-width: 600px){}
+
+/*  CLOSE screen and (min-width: 600px) */
+
+
+
+@media screen and (min-width: 900px){}
