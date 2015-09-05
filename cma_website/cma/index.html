@@ -14,10 +14,251 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        
 
         <!-- CONTENT FOR WEBSITE -->
 
 
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <img src="img/museum_logo.png">
+                </div>
+
+                <div class="top_nav">
+                    
+                    <ul>
+                        
+                        <li><a href="#">Visit</a></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Art</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Give &amp; Join</a></li>
+                        <li><a href="#">About</a></li>
+
+                    </ul>
+
+                </div>
+
+            </header>
+
+            <div class="search clearfix">
+                <!-- search form goes here -->
+              
+                <form id="search_cma" method="post" action="#">
+                    <input id="text_box" type="text" class="search_cma" name="search">
+                    <input id="search_button" type="submit" class="submit_button" value="Search CMA">
+                </form>
+               
+            </div>
+
+            <div class="title">
+                <h1>Membership Registration</h1>
+                <h2>be part of the Columbia Museum of Art</h2>
+            </div>
+
+
+            <div id="content">
+                <!-- this is where the main contact section begins, to be followed by a sidebar that can be floated. -->
+
+                <div class="benefits">
+                    <!-- all memberships include benefits -->
+
+                    <h2>All CMA Memberships Include the Following Benefits:</h2>
+                    <ul>
+                        <li>Free unlimited admission for one year</li>
+                        <li>Discounts on concert tickets, classes, and lectures.</li>
+                        <li>Free admission to over <a href="#">80 Museums</a> across the Southeast</li>
+                        <li>Exclusive invitations to special events, including Exhibition Members' Opening Parties.</li>
+                        <li>Member Appreciation Day - Several times a year, the museum offers exclusive members special savings in the gift shop, opportunities to bring a friend, and more.</li>
+                        <li>10% discount in the Museum Shop.</li>
+                        
+                    </ul>
+                </div>
+
+                <form class="clearfix" action="/" method="post">
+                    <!-- begin tell us about yourself form -->
+                    <fieldset class="name">
+                        <legend>Tell Us About Yourself</legend>
+
+                        <div>
+                            <label for="firstname">First Name:</label>
+                            <input type="text" name="firstname" id="firstname" value="" />
+                        </div>
+                        <div>
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" name="lastname" id="lastname" value="" />
+                        </div>
+                        <div>
+                            <label for="address">Address:</label>
+                            <input type="text" name="address" id="address" value="" />
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="user">
+                        <div>
+                            <label for="username">Choose a User Name:</label>
+                            <input type="text" name="username" id="username" value="" />
+                        </div>
+                        <div>
+                            <label for="email">email:</label>
+                            <input type="text" name="email" id="email" value="" />
+                        </div>
+                        <div>
+                            <label for="confirm">Confirm email:</label>
+                            <input type="text" name="confirm" id="confirm" value="" />
+                        </div>
+                    </fieldset>
+                    
+
+                    <!--begin form for contact info and membership options -->
+
+
+                    <fieldset class="membership_options">
+                        <h2>Choose Your Membership Level</h2>
+
+                        <ul>
+                            <li class="levels">
+                                <h3>Individual $50</h3>
+
+                                <ul>
+                                    <li>Standard Membership Benefits</li>
+                                    <li>Admission benefits for one adult</li>
+                                </ul>
+
+                            </li>
+                            <li class="levels">
+                                <h3>Family $75</h3>
+                                <ul>
+                                    <li>Admission benefits for two adults and all children (18 and under).</li>
+                                    <li>Priority Registration and 20% discount on summer camp and art classes.</li>
+                                    <li>Free admission to all Family Fun Events.</li>
+                                </ul>
+
+                            </li>
+
+                            <li class="levels">
+                                <h3>Patron $250</h3>
+                                <ul>
+                                    <li>All benefits of Family Membership.</li>
+                                    <li>Free admission to almost <a href="#">600 museums</a> in North America, including over <a href="#">80 museums</a> across the Southeast.</li>
+                                    <li>Free admission for two guests per visit.</li>
+                                    <li>Printed and Mailed Collections quarterly magazine and opening reception invitations.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </fieldset>  
+                    <!--end membership options -->
+                    
+                    <fieldset class="membership_level clearfix">
+                        <!-- membership level radio buttons -->
+                        <legend>Membership Level</legend>
+                        <div class="radio">
+                            <input type="radio" name="membership_option" id="option1" value="choice-1"/>
+                            <label for="option1">Individual Membership $50</label>
+                         </div>   
+                         <div class="radio">
+                            <input type="radio" name="membership_option" id="option2" value="choice-2"/>
+                            <label for="option2">Family Membership $75</label>
+                         </div>
+                         <div class="radio">   
+                            <input type="radio" name="membership_option" id="option3" value="choice-3"/>
+                            <label for="option3">Patron $250</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="checkbox">
+                        <!--additional options check box -->
+
+                        <h2>Additional Options</h2>
+                        
+                        <input type="checkbox" name="checkbox-1" id="checkbox-1"/>
+                        <label for="checkbox-1">Columbia Design League $100</label>
+                        
+                        
+                        <input type="checkbox" name="checkbox-2" id="checkbox-2"/>
+                        <label for="checkbox-2">Contemporaries $100</label>
+
+                        
+                        <input type="checkbox" name="checkbox-3" id="checkbox-3"/>
+                        <label for="checkbox-3">Friends of African American Art &amp; Culture $100</label>
+                    </fieldset>
+                    
+
+
+                    <!-- submit button for fieldset -->
+                    <div class="form_submit">
+                                             
+                        <input type="submit" class="submit_button" value="Complete Registration"/>
+           
+                    </div>
+
+                </form>
+            </div>
+            <!-- this is the end of the main content -->
+
+            <div class="sidebar">
+                <div class="tickets">
+                    <!-- sidebar nav 1 -->
+                    <h2>Tickets</h2>
+                    <ul>
+                        <li><a href="#">Upcoming Events</a></li>
+                        <li><a href="#">Chamber Music on Main</a></li>
+                        <li><a href="#">Talks &amp; Tours</a></li>
+                        <li><a href="#">Art School for Adults</a></li>
+                        <li><a href="#">Art School for Children</a></li>
+                        <li><a href="#">Affiliate Group Events</a></li>
+                    </ul>
+                </div>
+                <div class="Membership">
+                    <!-- sidebar nav 2 -->
+                    <h2>Membership</h2>
+                    <ul>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Premiere Society Membership</a></li>
+                    </ul>
+                </div>
+                <div class="donations">
+                    <!-- sidebar nav 3 -->
+                    <h2>Donations</h2>
+                    <ul>
+                        <li><a href="#">Annual Fund</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- this is the end of the sidebar -->
+
+        </div>
+        <!-- this is the end of the wrapper -->
+        
+        <footer>
+            <div class="address clearfix">
+                <ul class="address">
+                    
+                    <li>Columbia Museum of Art</li>
+                    <li>PO Box 2068 Columbia, SC 29202</li>
+                    <li>1515 Main Street | 803.799.2810</li>
+                </ul>
+               
+                <ul class="footer_nav">
+                    
+                    <li><a href="">Upcoming Events</a></li>
+                    <li><a href="">Talks &amp; Tours</a></li>
+                    <li><a href="">School for Children</a></li>
+                </ul>
+                
+                <ul class="footer_nav">
+                    
+                    <li><a href="">Chamber Music on Main</a></li>
+                    <li><a href="">Art School for Adults</a></li>
+                    <li><a href="">Art Affiliate Group Events</a></li>
+                
+                </ul>
+
+            </div>
+
+        </footer>
 
         
         <script src="js/script.js"></script>
