@@ -132,10 +132,12 @@ header{
 .benefits ul{
 	padding:0;
 	margin:0;
+
 }
 .benefits li{
 	font-size:.8em;
 	font-family:georgia, serif;
+	line-height:1.5em;
 }
 
 form{
@@ -203,7 +205,7 @@ input {
 }
 
 .membership_options ul{
-	margin: 0;
+	list-style: 0;
 	padding: 0;
 	width:90%;
 }
@@ -215,7 +217,7 @@ input {
 	font-size:.9em;
 	font-family: georgia, serif;
 	margin-bottom:8px;
-	width:90%
+	width:100%
 	;
 }
 
@@ -227,11 +229,11 @@ input {
 	padding-top:10px;
 	padding-bottom:20px;
 	
-	width:90%;
+	width:100%;
 }
 .levels li{
 
-	margin-left:5%;
+	margin-left:10%;
 	width:100%;
 }
 
@@ -286,13 +288,17 @@ input {
 	list-style:none;
 }
 
+.sidebar li{
+
+}
+
 .sidebar a{
 	display:block;
 	text-decoration:none;
 	font-family:georgia, serif;
 	width:90%;
 	border:2px solid #edeced;
-	height:30px;
+	height:40px;
 	text-align:center;
 }
 
@@ -311,7 +317,7 @@ footer{
 
 .footer_nav{
 	float:left;
-	width:40%;
+	width:36%;
 }
 
 .footer_nav ul{
@@ -385,7 +391,7 @@ footer{
 	width:39%;
 	float:left;
 	vertical-align:bottom;
-	padding:11% 5% 5% 5%;
+	padding:11.5% 5% 5% 5%;
 }
 
 .membership_level h2{
@@ -398,7 +404,7 @@ footer{
 
 .membership_options{
 
-	width:90%;
+	width:100%;
 	margin:0 auto;
 	display:block;
 }
@@ -408,16 +414,54 @@ footer{
 }
 
 .membership_level{
-	float:left;
+	display: inline-block;
+	
 	width:39%;
 	vertical-align:top;
+
 }
 
 .checkbox{
-	float:left;
+	display: inline-block;
+
 	width:39%;
 	vertical-align:top;
+	
 }
+
+.form_submit{
+	border:none;
+	width:30%;
+
+
+}
+.submit_button a{
+	width:30%;
+	text-align:right;
+
+}
+.sidebar a{
+	border:none;
+
+}
+.sidebar ul{
+	list-style:none;
+}
+.tickets{
+	float:left;
+	width:30%;
+}
+.membership{
+	float:left;
+	width:30%;
+}
+.donations{
+	float:left;
+	width:30%;
+}
+	
+
+
 }
                                                
 }
