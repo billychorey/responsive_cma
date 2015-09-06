@@ -437,9 +437,18 @@ footer{
 	border:none;
 	width:30%;
 	margin-left:65%;
+	display:block;
+	margin-top:30px;
+	border-top: 1px solid #a19fa0;
+
+	/* having problems getting border to span form box. It only spans the button. Tried to put border on class form submit and not button but it didn't work*/
+
 
 
 }
+
+
+
 .submit_button a{
 	width:33%;
 	padding:5% 10% 5% 10%;
@@ -457,6 +466,12 @@ footer{
 	padding:0;
 
 }
+
+.sidebar{
+	margin-top: 30px;
+	border-top: 1px solid #edeced;
+	display:block;
+}
 .sidebar li{
 
 }
@@ -472,9 +487,12 @@ footer{
 	float:left;
 	width:30%;
 }
+
+
 .address ul{
-	padding:5%;
+	
 	margin:0;
+	padding-top:30px;
 }
 .footer_nav{
 	display:block;
@@ -487,15 +505,123 @@ footer{
 	padding:1%;
 }
 
+.footer_nav a{
+	width:5%;
+}
+
 
 
 
 }
                                                
-}
+
 
 /*  CLOSE screen and (min-width: 600px) */
 
 
 
-@media screen and (min-width: 900px){}
+@media screen and (min-width: 800px){
+.logo img{
+	margin-left:5%;
+	display:block;
+}
+.body{
+	position:relative;
+
+}
+
+.search{
+	position:absolute;
+	top:0%;
+	right:5%;
+	background-color:none;
+	padding:0%;
+	margin-top:15px; 
+}
+
+.submit_button{
+	width:36%;
+}
+
+.top_nav{
+	display:block;
+	border:1px solid #edeced;
+	margin-top:20px;
+
+}
+
+.top_nav li{
+	display:inline-block;
+	width:16%;
+
+}
+.top_nav a{
+	border:none;
+
+}
+
+.title{
+	border:none;
+	background-color: #edeced;
+	padding:2%;
+
+}
+
+.levels{
+	
+	background-color: #a19fa0;
+	float:left;
+	width:25%;
+
+	
+
+}
+.levels li{
+	margin: 2% 1% 2% 2%;
+	padding-left:5%;
+	padding-bottom:5%;
+	float:left;
+	width:25%;
+
+}
+
+.benefits li{
+	float:none;
+	margin-right:0;
+	width:90%;
+}
+
+.form_submit input{
+	background-color: #60dafe;
+	width:100%;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 900px){
+
+.form_submit input{
+	background-color: #db2c42;
+}
+#content{
+	float:left;
+	width:65%;
+	margin-bottom:50px;
+	margin-right:5%;
+
+}
+
+.sidebar{
+	border:none;
+	
+}
+
+
+
+
+
+}
+
