@@ -294,6 +294,7 @@ input {
 
 .sidebar li{
 
+
 }
 
 .sidebar a{
@@ -304,6 +305,8 @@ input {
 	border:2px solid #edeced;
 	height:40px;
 	text-align:center;
+	padding-top:10px;
+
 }
 
 footer{
@@ -417,6 +420,17 @@ footer{
 	width:100%;
 }
 
+
+
+.levels li{
+	margin-left:0;
+	padding-bottom:10px;
+}
+
+.benefits li{
+	margin-left:5%;
+}
+
 .membership_level{
 	display: inline-block;
 	
@@ -477,15 +491,15 @@ footer{
 }
 .tickets{
 	float:left;
-	width:30%;
+	width:33%;
 }
 .membership{
 	float:left;
-	width:30%;
+	width:33%;
 }
 .donations{
 	float:left;
-	width:30%;
+	width:33%;
 }
 
 
@@ -614,9 +628,48 @@ footer{
 
 }
 
+.title{
+	margin-bottom:40px;
+}
+
 .sidebar{
 	border:none;
+	float:left;
+	padding-left:5%;
+	border-left: 1px solid #edeced;
+	margin-top:0;
 	
+}
+.sidebar a{
+	width:100%;
+
+}
+
+.tickets,.membership,.donations{
+	float:none;
+	margin:0;
+	width:100%;
+}
+
+.footer_nav{
+	float:left;
+	padding-left:0;
+	font-size:.8em;
+	margin: 0 auto;
+
+
+}
+
+.nav_1{
+	float:left;
+	width:40%;
+	text-align:right;
+}
+
+.nav_2{
+	float:left;
+	width:60%;
+	text-align:left;
 }
 
 
