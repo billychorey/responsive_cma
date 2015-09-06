@@ -476,10 +476,18 @@ footer{
 	padding:5%;
 	margin:0;
 }
-.footer{
+.footer_nav{
 	display:block;
 	width:100%;
 }
+
+.footer_nav li{
+	display:inline-block;
+	margin:0 auto;
+	padding:1%;
+}
+
+
 
 
 }
