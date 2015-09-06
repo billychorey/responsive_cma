@@ -430,6 +430,11 @@ footer{
 .benefits li{
 	margin-left:5%;
 }
+.selections{
+	
+
+	border-bottom: 1px solid #a19fa0;
+}
 
 .membership_level{
 	display: inline-block;
@@ -453,7 +458,7 @@ footer{
 	margin-left:65%;
 	display:block;
 	margin-top:30px;
-	border-top: 1px solid #a19fa0;
+
 
 	/* having problems getting border to span form box. It only spans the button. Tried to put border on class form submit and not button but it didn't work*/
 
